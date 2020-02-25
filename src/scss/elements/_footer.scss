@@ -1,0 +1,136 @@
+
+
+footer{
+    
+    background-color: $footerBackground;
+    font-family: $font;
+    font-weight: 400;
+    color: $footerTextColor;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 100vw;
+
+
+
+    div.footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        @media(max-width:600px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        @media(max-width:320px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        div{
+            width: 261px;
+            margin-top: 54px;
+
+            @media(max-width: 800px){
+                width: 220px;
+            }
+            @media(max-width:600px){
+                width: 261px;
+            }
+        }
+            .left {
+                margin-right: 207px;
+                @media(max-width:1024px){
+                    margin-right: 65px;
+                }
+                @media(max-width:800px){
+                    margin-right: 20px;
+                }
+                @media(max-width:320px){
+                    margin-right: 0;
+                }
+
+            
+                
+                .tel {
+                    margin-top: 3px;
+                    img{
+                        margin-right: 15px;
+
+                        a{
+                            text-decoration: none;
+                            
+                        }
+                    }
+                }
+                .mail {
+                    margin-top: 9px;
+                    img {
+                        margin-right: 15px;
+                    }
+                }
+                .icons {
+                    margin-top: 30px;
+
+                    img {
+                        margin-right: 13px;
+                    }
+                }
+        }
+        .middle {
+            margin-right: 123px;
+            line-height: 30px;
+            @media(max-width: 1024px){
+                margin-right: 38px;
+            }
+            @media(max-width: 320px){
+                margin-right: 0;
+            }
+            
+        }
+        .right{
+
+            nav.nav-small {
+                text-align: left;
+                margin-top: 15px;
+
+                table {
+                    color: $backgroundColor;
+                    text-transform: uppercase;
+                    font-family: $font;
+                    font-weight: 500;
+                    font-size: 14px;
+                    display: inline-block;
+                    
+                    td {
+                        width: 151px;
+
+                        a{
+                            text-decoration: none;
+                            color:white;
+                        }
+                    }
+            }
+
+        }
+
+     }
+    
+    }
+
+.copyrights {
+    text-align: center;
+    margin-bottom: 26px;
+    margin-top: 69px;
+    font-size: 14px;
+}
+
+}
+
