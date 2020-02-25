@@ -1,2 +1,2 @@
-# makemymind_react
-make my mind in react
+# makemymind_website_react
+for learning purposes-website done in react
