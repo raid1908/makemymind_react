@@ -24,7 +24,7 @@ function App() {
       <BrowserRouter>
         <Switch>
 
-          {/* dlaczego / nie działa? */}
+          {/* dlaczego pierwsze uniwerslane / nie działa? */}
           <Route exact path="/" component={Index} />
           <Route exact path="/index.html" component={Index} />
           <Route exact path="/trainers.html" component={Trainers} />

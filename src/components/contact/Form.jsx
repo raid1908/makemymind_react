@@ -1,16 +1,38 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import PersonalData from '../contact/PersonalData';
-import Textarea from '../contact/Textarea';
 
-const Form =()=>{
-    return (
+class Form extends Component{
 
-        <form>
-            <PersonalData/>
-            <Textarea />                      
-        </form>
-    )
+    render(){
+
+        return(
+            <>
+                <form>
+                        <div className="personal-data">
+                            <div className="name">
+                                <label >Wpisz imię i nazwisko </label>
+                                <input type="text" placeholder="np. Anna Nowak"/>
+                            </div>  
+                            <div className="email">
+                                <label> Wpisz adres e-mail </label>
+                                <input type="email" placeholder="np. anna.nowak@gmail.com" />    
+                            </div>
+                        </div>
+                        <div className="textarea">
+                            <label>Wpisz treść wiadomości </label>
+                                <textarea wrap="off" cols="60" rows="10" placeholder="np. Chcę się umówić na zajęcia!"></textarea>
+                            
+                        </div>
+                </form>
+
+                    
+                <button className="wyslij-wiadomosc">Wyślij wiadomość</button>
+               
+
+
+            </>
+        ) 
+    }
 }
 
 export default Form;
