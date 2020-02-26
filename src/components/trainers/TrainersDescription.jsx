@@ -1,5 +1,7 @@
 import React from 'react';
 
+import TrainersData from '../../data/trainers';
+
 const TrainersDescription =()=>{
     return (
         <div className="description">

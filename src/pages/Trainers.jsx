@@ -2,14 +2,13 @@ import React from 'react';
 
 import Article from '../components/trainers/Article';
 
-
 const Trainers=()=>{
 
     return(
         <main>
-            <div class="trainers container">
+            <div className="trainers container">
                 <Article />
-
+                
             </div>
         </main>
     )

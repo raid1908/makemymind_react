@@ -10,7 +10,6 @@ const Article =()=>{
         <article className="article trainer">
            <Person />
            <TrainersDescription />
-           
         </article>
 
     )

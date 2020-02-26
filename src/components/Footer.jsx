@@ -17,13 +17,13 @@ const Footer = () => {
     
         <footer>
        
-        <div class="footer">
+        <div className="footer">
             
-            <div class="left">
+            <div className="left">
                 Masz pytania?<br></br> Skontaktuj się z naszym konsultantem!
-                <div class="tel"><img src={PhoneIcon} alt="phoneIcon"></img>+48 000 000 000</div>
-                <div class="mail"><img src={EmailIcon} alt="EmailIcon"></img>kontakt@makemymind.pl</div>
-                <div class="icons">
+                <div className="tel"><img src={PhoneIcon} alt="phoneIcon"></img>+48 000 000 000</div>
+                <div className="mail"><img src={EmailIcon} alt="EmailIcon"></img>kontakt@makemymind.pl</div>
+                <div className="icons">
                     <a href="https://www.linkedin.com/company/make-my-mind/"><img src={LinkedIn} alt="linkedin"></img></a>
                     <a href="https://www.facebook.com/makemymindpl/"><img src={Facebook} alt="Facebook"></img></a>
                     <a href="#"><img src={Twitter} alt="Twitter"></img></a>
@@ -32,32 +32,34 @@ const Footer = () => {
             </div>
             
 
-            <div class="middle">
+            <div className="middle">
                 Make my mind sp. z o. o. <br></br> KRS: 0000677255, NIP:7451847771, <br></br> REGON: 366168664 <br></br> ul. Fredry 2/5a <br></br> 61-701 Poznań, Polska
             </div>
 
-            <div class="right">
+            <div className="right">
                 Fitness dla umysłu
-                <nav class="nav-small">
+                <nav className="nav-small">
                     <table>
-                        <tr>
-                            <td><a href="index.html" title="o nas" target="_blank">o nas</a></td>
-                            <td><a href="trainers.html" title="trenerzy" target="_blank">trenerzy</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="http" title="o projekcie" target="_blank">o projekcie</a></td>
-                            <td><a href="contact.html" title="kontakt" target="_blank">kontakt</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="trainings.html" title="uslugi" target="_blank">usługi</a></td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td><a href="index.html" title="o nas" target="_blank">o nas</a></td>
+                                <td><a href="trainers.html" title="trenerzy" target="_blank">trenerzy</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="http" title="o projekcie" target="_blank">o projekcie</a></td>
+                                <td><a href="contact.html" title="kontakt" target="_blank">kontakt</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="trainings.html" title="uslugi" target="_blank">usługi</a></td>
+                            </tr>
+                        </tbody>
                     </table>
                 </nav>
             </div>
         </div>
 
 
-        <div class="copyrights">
+        <div className="copyrights">
             Copyrights @ Make my mind 2019
         </div>
     

@@ -1,6 +1,9 @@
 import React from 'react';
 
 //data:
+import TrainersData from '../../data/trainers';
+
+
 
 
 const Person=()=>{
