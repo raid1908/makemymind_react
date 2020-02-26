@@ -65,6 +65,10 @@ main.contact{
             box-sizing: border-box;
             width: 433px;
             margin-right:200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
 
             @media(max-width:1024px){
                 margin-right: 80px;
@@ -90,6 +94,7 @@ main.contact{
                 color: $h2TextColor;
                 line-height: 45px;
                 margin-bottom: 23px;
+                text-align: start;
 
                 @media(max-width:800px){
                     font-size: 28px;
@@ -126,6 +131,7 @@ main.contact{
 
                     label{
                         margin-left: 10px;
+                        text-align: start;
                     }
 
                     label, input{
@@ -201,6 +207,7 @@ main.contact{
                         color: $pTextColor;
                         line-height: 25px;
                         margin-bottom: 10px;
+                        text-align: start;
                     }
                     
                     
@@ -211,7 +218,7 @@ main.contact{
             
             button.wyslij-wiadomosc {
                 margin-top:170px;
-
+                align-self: flex-start;
                 @media(max-width:500px){
                     margin-top: 200px;
                 }

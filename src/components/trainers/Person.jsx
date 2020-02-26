@@ -1,19 +1,20 @@
 import React from 'react';
 
-//data:
-import TrainersData from '../../data/trainers';
+
+import TrainersDescription from '../trainers/TrainersDescription';
 
 
 
 
 const Person=()=>{
+   
     return(
         <div className="person">
             <div className="introduce">
                 <div className="image aneta"></div>
-                        
-                    </div>
-            <div className="name">Aneta<br></br> Murakowska</div>
+                <div className="name">Aneta<br></br> Murakowska</div>
+            </div>
+            <TrainersDescription/>
         </div>
     )
 }

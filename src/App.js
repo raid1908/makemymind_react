@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+
 //style:
 import "../src/scss/main.scss";
 
@@ -10,6 +10,8 @@ import Footer from '../src/components/Footer';
 //podstrony:
 import Index from '../src/pages/Index';
 import Trainers from '../src/pages/Trainers';
+import Trainings from '../src/pages/Trainings';
+import Contact from '../src/pages/Contact';
 
 //zmienne:
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -21,11 +23,13 @@ function App() {
     
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Index} />
-          <Route exact path="/trainers.html" component={Trainers} />
-          
-          
 
+          {/* dlaczego / nie działa? */}
+          <Route exact path="/" component={Index} />
+          <Route exact path="/index.html" component={Index} />
+          <Route exact path="/trainers.html" component={Trainers} />
+          <Route exact path="/trainings.html" component={Trainings} />
+          <Route exact path="/contact.html" component={Contact} />   
         </Switch>
       </BrowserRouter>
 
